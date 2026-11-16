@@ -9,6 +9,7 @@
     "db:generate": "drizzle-kit generate --name",
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx script/seed.ts",
+    "db:seed:atlapse": "tsx script/seed-atlapse.ts",
     "db:seed:demo": "tsx script/seed-demo.ts",
     "db:seed:global": "tsx script/seed-global.ts",
     "db:seed:history": "tsx script/seed-history.ts",

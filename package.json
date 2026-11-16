@@ -12,6 +12,7 @@
     "db:create": "cd src/back && npm run db:create",
     "db:delete": "docker volume rm atlapse_postgres_data",
     "db:seed": "cd src/back && npm run db:seed",
+    "db:seed:atlapse": "cd src/back && npm run db:seed:atlapse",
     "db:studio": "cd src/back && npm run db:studio",
     "db:sync": "cd src/back && npm run db:sync",
     "docker:rebuild": "npm stop && docker-compose -f infra/docker.yml build --no-cache && npm start",

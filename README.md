@@ -78,6 +78,7 @@ npm run db:migrate          # Apply migrations
 npm run db:drop             # Remove last migration
 npm run db:delete           # Delete db volume
 npm run db:seed             # Seed
+npm run db:seed:atlapse     # Seed the AtLapse registries and the Guernica sample graph
 
 # Type checking
 npm run typecheck

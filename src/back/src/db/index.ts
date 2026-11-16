@@ -11,7 +11,7 @@ config({ path: join(dir, '../../../.env') });
 const { Pool } = pg;
 
 const pool = new Pool({
-  host: 'postgres',
+  host: process.env.POSTGRES_HOST || 'postgres',
   port: Number(process.env.POSTGRES_PORT),
   database: process.env.POSTGRES_DB,
   user: process.env.POSTGRES_USER,
